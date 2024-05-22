@@ -35,7 +35,7 @@ export default class RemoteDeviceModel {
     logger.info(TAG, `deviceManager is null begin`)
     logger.info(TAG, `deviceManager.createDeviceManager begin`)
     try {
-      this.deviceManager = deviceManager.createDeviceManager("ohos.samples.distributedcalc")
+      this.deviceManager = deviceManager.createDeviceManager("csdi.samples.distributedcalc")
       this.registerDeviceListCallback_(callback)
       logger.info(TAG, `createDeviceManager callback returned, value=${JSON.stringify(this.deviceManager)}`)
     } catch (error) {
@@ -208,7 +208,7 @@ export default class RemoteDeviceModel {
     for (let i = 0; i < this.discoverList.length; i++) {
       if (this.discoverList[i].deviceId === device.deviceId) {
         let extraInfo = {
-          'targetPkgName': 'ohos.samples.distributedcalc',
+          'targetPkgName': 'csdi.samples.distributedcalc',
           'appName': 'Distributed Calc',
           'appDescription': 'Distributed Calc',
           'business': '0'
@@ -221,7 +221,7 @@ export default class RemoteDeviceModel {
           "bindLevel": 3,
           "bindType": 1,
           "appName": 'Distributed Calc',
-          "targetPkgName": 'ohos.samples.distributedcalc',
+          "targetPkgName": 'csdi.samples.distributedcalc',
         }
         if (this.deviceManager === undefined) {
           return

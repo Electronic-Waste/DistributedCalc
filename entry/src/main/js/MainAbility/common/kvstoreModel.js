@@ -27,7 +27,7 @@ export class KvStoreModel {
       callback()
     }
     var config = {
-      bundleName: 'ohos.samples.distributedcalc',
+      bundleName: 'csdi.samples.distributedcalc',
       userInfo: {
         userId: '0',
         userType: 0

@@ -1,7 +1,7 @@
 {
   "app": {
     "vendor": "samples",
-    "bundleName": "ohos.samples.distributedcalc",
+    "bundleName": "csdi.samples.distributedcalc",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -9,7 +9,7 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "ohos.samples.distributedcalc_test",
+    "package": "csdi.samples.distributedcalc_test",
     "name": ".entry_test",
     "mainAbility": ".TestAbility",
     "deviceType": [

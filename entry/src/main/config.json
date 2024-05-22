@@ -45,7 +45,7 @@
       "deliveryWithInstall": true,
       "moduleName": "entry"
     },
-    "package": "ohos.samples.distributedcalc",
+    "package": "csdi.samples.distributedcalc",
     "srcPath": "",
     "name": ".entry",
     "js": [
